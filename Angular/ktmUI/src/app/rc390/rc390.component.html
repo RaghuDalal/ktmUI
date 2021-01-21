@@ -1,0 +1,29 @@
+<div class="container  w-100">
+    <div class="card bikecard p-4">
+        <div class="bike">
+            <div class="circle"></div>
+            <img src="../../assets/img/rc390white.png" alt="rc390" *ngIf="orangeImage; else elseblock">
+            <ng-template #elseblock>
+                <img src="../../assets/img/rc390black.png" alt="rc390" >
+
+            </ng-template>
+        </div>
+        <div class="info">
+            <h1 class="title text-center mt-3">RC 390</h1>
+            <h3>Agile, fast, suitable for A2 driving licence and extremely sporty. Whether you are on country
+                 roads or the racetrack, the Moto3 genes are perceptible in every manoeuvre and convey a pure
+                  race feeling.</h3>
+            <div class="sizes">
+                <button class="orange" (click)="orange()">White</button>
+                <button class="white" (click)="white()">Orange</button>
+                
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="purchase w-50 ">
+                    <button>Purchase</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
