@@ -1,7 +1,7 @@
 
 window.addEventListener('load',()=>{
-  const card = document.querySelector(".bikecard");
-  const container = document.querySelector("#bikecontainer");
+  const card = document.querySelector(".duke390");
+  const container = document.querySelector("#duke390");
   //Items
   const title = document.querySelector(".title");
   const sneaker = document.querySelector(".bike img");

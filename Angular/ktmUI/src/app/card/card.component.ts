@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import * as abc from '../../assets/js/card.js';
 
 @Component({
   selector: 'app-card',
@@ -12,7 +11,7 @@ export class CardComponent implements OnInit {
   orangeImage=true;
 
   constructor() { 
-    // abc.abc();
+
   }
 
   ngOnInit(): void { 
