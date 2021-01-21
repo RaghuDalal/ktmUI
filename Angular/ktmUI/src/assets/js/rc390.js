@@ -3,11 +3,11 @@ window.addEventListener('load',()=>{
     const card = document.querySelector(".rc390");
     const container = document.querySelector("#rc390");
     //Items
-    const title = document.querySelector(".title");
-    const sneaker = document.querySelector(".bike img");
-    const purchase = document.querySelector(".purchase");
-    const description = document.querySelector(".info h3");
-    const sizes = document.querySelector(".sizes");
+    const title = document.querySelector("#title390");
+    const sneaker = document.querySelector("#rc390 img");
+    const purchase = document.querySelector("#purchase");
+    const description = document.querySelector("#info390 h3");
+    const sizes = document.querySelector("#sizes390");
     
       container.addEventListener("mousemove", (e) => {
         let xAxis = (window.innerWidth / 2 - e.pageX) / 25;

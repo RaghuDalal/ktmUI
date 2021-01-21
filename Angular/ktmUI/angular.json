@@ -32,7 +32,7 @@
               "node_modules/popper.js/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/assets/js/rc390.js",
-              "src/assets/js/card.js"
+              "src/assets/js/duke390.js"
             ]
           },
           "configurations": {
