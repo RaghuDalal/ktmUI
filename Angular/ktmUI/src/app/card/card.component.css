@@ -47,11 +47,7 @@
   .circle {
     width: 15rem;
     height: 15rem;
-    background: linear-gradient(
-      to right,
-      rgba(245, 70, 66, 0.75),
-      rgba(8, 83, 156, 0.75)
-    );
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     position: absolute;
     border-radius: 50%;
     z-index: 1;
@@ -83,7 +79,7 @@
     padding: 0.5rem 2rem;
     background: none;
     border: none;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    
     border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
@@ -91,18 +87,44 @@
     outline: none;
   }
   .sizes button.orange{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
       background-color: #FF6600;
       color: white;
       font-family: "Ubuntu";
   }
+  .sizes button.orange:hover{
+    border: 1px solid white;
+    box-shadow: 0px 2px 0 #FF6600, 2px 4px 6px #e02a24;
+    text-shadow: -1px -1px 0 #c2211c;
+  }
+  .sizes button.orange:active{
+    text-shadow:none;
+    border: 1px solid #FF6600;
+    background-color: #f89e01;
+    box-shadow:none;
+    
+  }
   .sizes button.white{
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     color: #FF6600;
     font-family: "Ubuntu";
 }
+  .sizes button.white:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-shadow: -1px -1px 0 #c2211c;
+  }
+  .sizes button.white:active{
+    text-shadow:none;
+    box-shadow:none;
+    background-color:#f9fafa;
+  }
   button.active {
     background: #585858;
     color: white;
   }
+
+
   .purchase {
     font-family: "Ubuntu";
     margin-top: 5rem;
@@ -111,11 +133,7 @@
   .purchase button {
     width: 100%;
     padding: 1rem 0rem;
-    background: linear-gradient(
-      to right,
-      rgba(245, 70, 66, 0.75),
-      rgba(8, 83, 156, 0.75)
-    );
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     border: none;
     color: black;
     cursor: pointer;
