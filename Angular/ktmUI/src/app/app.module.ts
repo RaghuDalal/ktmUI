@@ -10,6 +10,7 @@ import { IndexComponent } from './index/index.component';
 import { CardComponent } from './card/card.component';
 import { FormsModule } from '@angular/forms';
 import { Rc390Component } from './rc390/rc390.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Rc390Component } from './rc390/rc390.component';
     HeaderComponent,
     IndexComponent,
     CardComponent,
-    Rc390Component
+    Rc390Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

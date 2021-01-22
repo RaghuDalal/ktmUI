@@ -1,11 +1,23 @@
 
 window.addEventListener('load',()=>{
+
+  function isMobile() {
+
+    console.log("Mobile Mode RC390")
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+if (!isMobile()) {
+  console.log("Desktop Mode RC390")
+
+  console.log(window.screen.availHeight)
+    console.log(window.screen.availWidth)
     const card = document.querySelector(".rc390");
     const container = document.querySelector("#rc390");
     //Items
     const title = document.querySelector("#title390");
     const sneaker = document.querySelector("#rc390 img");
-    const purchase = document.querySelector("#purchase");
+    const purchase = document.querySelector("#purchase390");
     const description = document.querySelector("#info390 h3");
     const sizes = document.querySelector("#sizes390");
     
@@ -35,11 +47,7 @@ window.addEventListener('load',()=>{
         sizes.style.transform = "translateZ(0px)";
         purchase.style.transform = "translateZ(0px)";
       });
+
+}
+    
   });
-  
-  
-  //Moving Animation Event
-  
-      //Movement Animation to happen
-  
-  

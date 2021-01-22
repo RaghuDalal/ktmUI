@@ -1,5 +1,13 @@
 
 window.addEventListener('load',()=>{
+  function isMobile() {
+    console.log("Mobile Mode Duke390")
+return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+if (!isMobile()) {
+  console.log("Desktop Mode Duke390")
+
   const card = document.querySelector(".duke390");
   const container = document.querySelector("#duke390");
   //Items
@@ -35,10 +43,7 @@ window.addEventListener('load',()=>{
       sizes.style.transform = "translateZ(0px)";
       purchase.style.transform = "translateZ(0px)";
     });
+
+}
+  
 });
-
-
-//Moving Animation Event
-
-    //Movement Animation to happen
-
