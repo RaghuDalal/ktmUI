@@ -2,11 +2,8 @@
     <div class="card duke390 p-4">
         <div class="bike">
             <div class="circle"></div>
-            <img src="../../assets/img/duke390orange.png" alt="duke" *ngIf="orangeImage; else elseblock">
-            <ng-template #elseblock>
-                <img src="../../assets/img/dukeWhite.png" alt="duke" >
-
-            </ng-template>
+            <img [src]="url" alt="duke">
+            
         </div>
         <div class="info">
             <h1 class="title text-center mt-3">390 DUKE</h1>

@@ -6,26 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
-
-  whiteImage=false;
-  orangeImage=true;
+url="../../assets/img/duke390orange.png";
 
   constructor() { 
-
   }
 
   ngOnInit(): void { 
-    this.orangeImage=true;  
+    this.orange();
   }
 
   white(){
-    this.whiteImage=true;
-    this.orangeImage=false;
+    this.url="../../assets/img/dukeWhite.png";
   }
 
   orange(){
-    this.whiteImage=false;
-    this.orangeImage=true;
+    this.url="../../assets/img/duke390orange.png";
   }
 
 }

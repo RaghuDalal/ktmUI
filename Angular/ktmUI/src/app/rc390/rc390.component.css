@@ -106,7 +106,7 @@
   }
   .purchase {
     font-family: "Ubuntu";
-    margin-top: 5rem;
+    margin-top: 3rem;
     transition: all 0.75s ease-out;
   }
   .purchase button {
