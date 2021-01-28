@@ -1,7 +1,5 @@
 # ktmUI <br/>
-Next Gen Concept UI for KTM<br/>
-* Made in Angular 11<br/>
-![ScreenShot](https://raw.github.com/RaghuDalal/ktmUI/master/img/390.png)<br/>
+Next Gen Concept UI for KTM , Made in Angular 11<br/>
 
 ## Angular Development server
 
@@ -26,3 +24,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<br/>
+![ScreenShot](https://raw.github.com/RaghuDalal/ktmUI/master/img/390.png)
